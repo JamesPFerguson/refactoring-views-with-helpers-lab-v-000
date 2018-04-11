@@ -5,7 +5,7 @@ module SongsHelper
   end
 
   def artist_name=(name)
-    self.Artist.build(name: name)
+    self.artist.build(name: name)
   end
-  
+
 end
